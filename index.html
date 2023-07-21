@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat+Alternates&family=Mukta&family=Sawarabi+Mincho&family=Tektur&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <title>Calculator</title>
+  <body>
+    <script src="calculator.js"></script>
+    <h1>Hi this will be a calculator someday maybe</h1>
+    <div class="calculator">
+      <div class="cTitle">
+        <p>CALCULATOR</p>
+      </div>
+      <div>
+        <p id="container"></p>
+      </div>
+      <div>
+        <form id="frm1" action="/action_page.php">
+          Number:
+          <input
+            id="number1"
+            type="text"
+            placeholder="Enter a number"
+            name="num1"
+          /><br />
+          Number:
+          <input
+            id="number2"
+            type="text"
+            placeholder="Enter a number"
+            name="num2"
+          /><br /><br />
+          <button
+            id="addNums"
+            type="button"
+            class="numButton"
+            onclick="add();clearData();fillData()"
+          >
+            +
+          </button>
+          <button
+            id="subNums"
+            type="button"
+            class="numButton"
+            onclick="subtract();clearData();fillData()"
+          >
+            -
+          </button>
+          <button
+            id="multiplyNums"
+            type="button"
+            class="numButton"
+            onclick="multiply();clearData();fillData()"
+          >
+            *
+          </button>
+
+          <button
+            id="divideNums"
+            type="button"
+            class="numButton"
+            onclick="divide();clearData();fillData()"
+          >
+            /
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+.calculator {
+  background-color: rgb(205, 231, 255);
+  border-color: blueviolet;
+  color: black;
+  width: 300px;
+  margin-left: 30%;
+  padding: 10px;
+}
+
+.cTitle {
+  background-color: black;
+  color: antiquewhite;
+  border-color: blueviolet;
+  text-align: center;
+  width: 280px;
+  padding: 5px;
+  font-family: "Bad Script", cursive;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Mukta", sans-serif;
+  font-family: "Sawarabi Mincho", serif;
+  font-family: "Tektur", cursive;
+  font-size: large;
+}
+
+.numButton {
+  background-color: rgb(8, 8, 97);
+  color: rgb(153, 238, 163);
+  font-size: larger;
+}
+
+#container {
+  background-color: aliceblue;
+  color: midnightblue;
+  padding: 10px;
+  text-align: center;
+  width: 277px;
+  height: 75px;
+  font-family: "Bad Script", cursive;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Mukta", sans-serif;
+  font-family: "Sawarabi Mincho", serif;
+  font-family: "Tektur", cursive;
+  font-size: x-large;
+}
